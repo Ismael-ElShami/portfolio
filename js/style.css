@@ -1,0 +1,730 @@
+/* Place your CSS styles in this file
+  font-family: 'Righteous', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Black Ops One', cursive;
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Nova Round', cursive;
+  font-family: 'Cairo', sans-serif;      (arabic)
+  font-family: 'El Messiri', sans-serif; (arabic)
+  font-family: 'Nunito', sans-serif;
+ */
+ * {
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Black Ops One', cursive !important;
+    color: rgb(75 75 234);
+    font-size: 45px;
+    cursor: context-menu;
+}
+
+h1:hover {
+    color: rgb(157, 157, 250);
+}
+
+ body {
+     background-color: rgb(27, 11, 65);
+     font-family: 'Nunito', sans-serif;
+ }
+      
+    .profileImgo {
+border-radius: 50%;
+    border-width: 2px;
+    border-color: #ffffffd1;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2zfNyletoSH0CKrh35sEDC5RGR2NHasK-sVGuORyoZ8tV9jGJ3s227v8_-DrLZomcYGGmy9gDLDiV9zqa0HMnEEtuDiFkTA9Sbe-HbmgNGk9y04YNtCzl70Drkl11N1cUlz-FtjeBds5jDh13cFwp-5LLV2jDGHQSKoxqEUtBKIuWBSKR54KzmKTe/s16000/6.png);
+    background-size: 129px;
+    z-index: 4000;
+    position: absolute;
+    top: 34px;
+    left: 68px;
+    width: 130px;
+    height: 130px;
+    border-style: solid;
+    display: inline-block;
+
+      }
+
+
+
+.followButton {
+    border-radius: 3px;
+    border-color: rgb(51, 192, 110);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(51, 192, 110);
+    z-index: 3000;
+    cursor: pointer;
+    position: absolute;
+    direction: ltr;
+    right: 35px;
+    top: 205px;
+}
+.followButton:hover {
+ color: rgb(255, 255, 255);
+ background-color: rgb(28, 107, 61);
+ cursor: pointer;
+ border-color: rgb(28, 107, 61);
+}
+
+
+@media (min-width: 767px) {
+    .special-heading {
+        font-size: 60px;
+    }
+    .special-heading + p {
+        margin-top: -20px;
+    }
+}
+
+/* Small screen */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium screen */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large screen */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+      
+
+      .PARA {
+    font-size: 20px;
+    color: rgb(173, 145, 238);
+    margin: 0;
+    z-index: 4001;
+    text-align: center;
+    place-items: start;
+    position: absolute;
+    top: 179px;
+    left: 62px;
+    display: inline-flex;
+    cursor: context-menu;
+}
+      
+.PARA:hover {
+    color: rgb(201, 179, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479), 0 0 25px rgb(55, 55, 204), 0 0 5px rgb(66, 66, 156);
+}
+     
+         .PARA2 {
+    font-size: 13px;
+    color: rgb(173 145 238);
+    margin: 0;
+    z-index: 4002;
+    text-align: center;
+    place-items: start;
+    position: absolute;
+    top: 207px;
+    left: 78px;
+    display: inline-flex;
+    cursor: context-menu;
+    direction: rtl;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+      
+
+    .PARA2:hover {
+     color: rgb(201, 179, 255);
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479), 0 0 25px rgb(55, 55, 204), 0 0 5px rgb(66, 66, 156);
+      }
+      
+      .slideBar {
+    background-color: rgb(24 3 103 / 50%);
+    border-radius: 32px;
+    border-color: rgb(65 44 197);
+    border-style: solid;
+    border-width: 3px;
+    height: 980px;
+    width: 200px;
+    top: 23px;
+    position: absolute;
+    left: 34px;
+      }
+
+      .circleee {
+    width: 57px;
+    height: 40px;
+    position: absolute;
+    top: 126px;
+    left: 155px;
+    cursor: context-menu;
+    z-index: 4000;
+      }
+
+     .hr1 {
+    width: 192px;
+    height: 25px;
+    background-color: rgb(65 44 197);
+    z-index: 3995;
+    position: absolute;
+    place-items: center;
+    left: 47px;
+    top: 291px;
+    margin: inherit;
+    border: none;
+     }
+
+    .info {
+    color: rgb(173 145 238);
+    z-index: 4000;
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    font-size: 20px;
+    background-color: transparent !important;
+    cursor: context-menu;
+    }
+
+
+         .hr2 {
+    width: 192px;
+    height: 25px;
+    background-color: rgb(65 44 197);
+    z-index: 3995;
+    position: absolute;
+    place-items: center;
+    left: 47px;
+    top: 491px;
+    margin: inherit;
+    border: none;
+     }
+
+    .social {
+    color: rgb(173 145 238);
+    z-index: 4000;
+    position: absolute;
+    top: 490px;
+    left: 50px;
+    font-size: 20px;
+    background-color: transparent !important;
+    cursor: context-menu;
+    }
+
+         .hr3 {
+    width: 192px;
+    height: 25px;
+    background-color: rgb(65 44 197);
+    z-index: 3995;
+    position: absolute;
+    place-items: center;
+    left: 47px;
+    top: 691px;
+    margin: inherit;
+    border: none;
+     }
+
+    .cPR {
+    color: rgb(173 145 238);
+    z-index: 4000;
+    position: absolute;
+    top: 695px;
+    left: 50px;
+    font-size: 13px;
+    background-color: transparent !important;
+    cursor: context-menu;
+    }
+
+    .svgEmail {
+    z-index: 4000;
+    position: absolute;
+    right: 161px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 436px;
+}
+.svgPhone {
+    z-index: 4000;
+    position: absolute;
+    right: 161px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 393px;
+}
+.svgAdress {
+    z-index: 4000;
+    position: absolute;
+    right: 163px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 349px;
+}
+.svgDOB {
+    z-index: 4000;
+    position: absolute;
+    right: 163px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 305px;
+}
+
+.svgAdress {
+    z-index: 4000;
+    position: absolute;
+    left: 55px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 377px;
+}
+.svgPhone {
+    z-index: 4000;
+    position: absolute;
+    left: 55px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 416px;
+}
+.svgEmail {
+    z-index: 4000;
+    position: absolute;
+    left: 55px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 455px;
+}
+.svgDOB {
+    z-index: 4000;
+    position: absolute;
+    left: 55px;
+    font-size: 40px;
+    width: 22px;
+    height: 22px;
+    top: 335px;
+}
+
+
+
+      .infoDOB {
+    font-size: 10px;
+    position: absolute;
+    top: 328px;
+    left: 85px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 87px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .infoDOB::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+            .infoAdress {
+    font-size: 10px;
+    position: absolute;
+    top: 369px;
+    left: 85px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 87px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .infoAdress::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+                  .infoPhone {
+    font-size: 10px;
+    position: absolute;
+    top: 409px;
+    left: 85px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 87px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .infoPhone::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+                  .infoEmail {
+    font-size: 10px;
+    position: absolute;
+    top: 448px;
+    left: 85px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .infoEmail::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+
+.imgotwit {
+    cursor: pointer;
+    z-index: 4000;
+    width: 25px;
+    height: 25px;
+    top: 613px;
+    left: 55px;
+    position: absolute;
+    display: inline-block;
+}
+.imgowats {
+    cursor: pointer;
+    z-index: 4000;
+    width: 25px;
+    height: 25px;
+    top: 654px;
+    left: 55px;
+    position: absolute;
+    display: inline-block;
+}
+.imgoinsta {
+    cursor: pointer;
+    z-index: 4000;
+    width: 25px;
+    height: 25px;
+    top: 574px;
+    left: 55px;
+    position: absolute;
+    display: inline-block;
+}
+.imgofb {
+    cursor: pointer;
+    z-index: 4000;
+    width: 25px;
+    height: 25px;
+    top: 535px;
+    left: 55px;
+    position: absolute;
+    display: inline-block;
+}
+
+           .socialFacebook {
+    font-size: 10px;
+    position: absolute;
+    top: 530px;
+    left: 88px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .socialFacebook::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+           .socialWhatsApp {
+    font-size: 10px;
+    position: absolute;
+    top: 650px;
+    left: 88px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .socialWhatsApp::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+           .socialInstagram {
+    font-size: 10px;
+    position: absolute;
+    top: 570px;
+    left: 88px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .socialInstagram::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+      
+           .socialTwitter {
+    font-size: 10px;
+    position: absolute;
+    top: 610px;
+    left: 88px;
+    color: rgb(133 114 177);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    width: 137px;
+    height: 33px;
+    cursor: context-menu;
+      }
+      .socialTwitter::first-line {
+      font-size: 16px;
+      color: rgb(173 145 238);
+      }
+
+.cumpProg {
+    font-size: 16px;
+    position: absolute;
+    top: 736px;
+    left: 98px;
+    color: rgb(173 145 238);
+    z-index: 4000;
+    direction: ltr;
+    margin: 0;
+    padding: 0;
+    cursor: context-menu;
+    display: list-item;
+    place-items: center;
+    justify-content: center;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    font-size: 0;
+}
+
+.markCheck1 {
+    position: absolute;
+    top: 740px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: block;
+}
+
+.markCheck2 {
+    position: absolute;
+    top: 762px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: block;
+}
+
+.markCheck3 {
+    position: absolute;
+    top: 784px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: block;
+}
+
+.markCheck4 {
+    position: absolute;
+    top: 806px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck5 {
+    position: absolute;
+    top: 827px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck6 {
+    position: absolute;
+    top: 849px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck7 {
+    position: absolute;
+    top: 871px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck8 {
+    position: absolute;
+    top: 893px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck9 {
+    position: absolute;
+    top: 915px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+.markCheck10 {
+    position: absolute;
+    top: 938px;
+    left: 78px;
+    z-index: 3000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: block;
+}
+.markCheck11 {
+    position: absolute;
+    top: 959px;
+    left: 78px;
+    z-index: 4000;
+    cursor: context-menu;
+    width: 13px;
+    height: 13px;
+    display: none;
+}
+
+.about1:hover {
+    border-left-style: solid;
+    border-left-color: rgb(75 75 234);
+    border-left-width: 3px;
+}
+.about1 {
+    padding: 4px;
+    color: rgb(75 75 234);
+    z-index: 1411 ;
+    top: 1100px;
+    left: 50px;
+    position: absolute;
+    font-size: 25px;
+    cursor: context-menu;
+    direction: ltr;
+    transition: 0.2s;
+}
+.about2 {
+    color: rgb(173 145 238);
+    z-index: 1400;
+    top: 1130px;
+    left: 29px;
+    position: absolute;
+    font-size: 12px;
+    direction: ltr;
+}
+
+.EDUCATION1:hover {
+    border-left-style: solid;
+    border-left-color: rgb(75 75 234);
+    border-left-width: 3px;
+}
+.EDUCATION1 {
+    padding: 4px;
+    color: rgb(75 75 234);
+    z-index: 1411;
+    top: 1270px;
+    left: 50px;
+    position: absolute;
+    font-size: 25px;
+    cursor: context-menu;
+    direction: ltr;
+    transition: 0.2s;
+}
+.EDUCATION2 {
+    color: rgb(173 145 238);
+    z-index: 1400;
+    top: 1300px;
+    left: 30px;
+    position: absolute;
+    font-size: 12px;
+    direction: ltr;
+}
+
+.footer {
+   background-color: rgb(24 3 103 / 50%);
+    color: rgb(173 145 238);
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+    bottom: -1500px;
+    position: relative;
+    cursor: context-menu;
+}
+.footer span {
+    font-weight: bold;
+    color: rgb(75 75 234);
+    cursor: context-menu;
+}
+
+
